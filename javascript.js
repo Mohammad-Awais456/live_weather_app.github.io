@@ -60,7 +60,7 @@ inputbtn.onclick = function (event) {
     countryname.innerHTML = "";
     currenttemp.innerHTML = "";
   } else {
-    const api = "http://api.openweathermap.org/data/2.5/weather?q=" + searchval + "&appid=2bdbcee532f1907edee6a15577eb04d1";
+    const api = "https://api.openweathermap.org/data/2.5/weather?q=" + searchval + "&appid=2bdbcee532f1907edee6a15577eb04d1";
     let data;
     var request = new XMLHttpRequest();
     request.open('GET', api, false);
